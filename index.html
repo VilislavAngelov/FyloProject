@@ -10,87 +10,123 @@
   <title>Frontend Mentor | Landing page with detailed integrations section</title>
 </head>
 <body>
-  Sign In
-  Sign Up
+  <header class="header">
+    <img src="images/logo.svg" alt="Logo" class="header__logo">
+    <a href="#" class="header_btn">Sign In</a>
+    <a href="#" class="header_btn btn-full">Sign Up</a>
+  </header>
+  <main>
+    <section class="landing">
+      <h1 class="landing__title">All your files in one secure location, accessible anywhere.</h1>
+      <p class="description">Fylo stores all your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with friends, 
+          family and co-workers.</p>
+      <a href="" class="landing__button btn-full">Get Started</a>
+    </section>
+    <section class="benefits">
+      <h2 class="heading--2">Stay productive, wherever you are</h2>
+      <p class="description">Never let location be an issue when accessing your files. Fylo has you 
+          covered for all of your file storage needs.</p>
+      <div class="benefits__box">
+        <div class="befefits__box--item">
+          <img src="images/icon-devices.svg" alt="Devices icon">
+          <h3 class="heading--3">All platforms, all devices, all your files</h3>
+        </div>
+        <div class="befefits__box--item">
+            <img src="images/icon-security.svg" alt="Security icon">
+            <h3 class="heading--3">Security you can trust</h3>
+          </div>
+          <div class="befefits__box--item">
+              <img src="images/icon-collaboration.svg" alt="Devices icon">
+              <h3 class="heading--3">Real-time collaboration</h3>
+            </div>
+      </div>
+    </section>
+    <section class="apps">
+      <h2 class="heading--2">Connect with the apps you use everyday</h2>
+      <p class="description">Fylo seamlessly integrates with hundreds of apps, meaning you can access and 
+          work on your files from the apps you already know and love.</p>
+      <div class="apps__cards">
+        <div class="apps__cards--item">
+          <img src="images/logo-slack.png" alt="Slack icon">
+          <h2 class="heading--2">Slack</h2>
+          <p class="apps__cards--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.</p>
+        </div>
+        <div class="apps__cards--item">
+          <img src="images/logo-gsuite.png" alt="Gsuite icon">
+          <h2 class="heading--2">GSuite</h2>
+          <p class="apps__cards--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.</p>
+        </div>
+        <div class="apps__cards--item">
+          <img src="images/logo-trello.png" alt="Trello icon">
+          <h2 class="heading--2">Trello</h2>
+          <p class="apps__cards--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.</p>
+        </div>
+        <div class="apps__cards--item">
+          <img src="images/logo-asana.png" alt="Asana icon">
+          <h2 class="heading--2">Asana</h2>
+          <p class="apps__cards--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.</p>
+        </div>
+        <div class="apps__cards--item">
+          <img src="images/logo-salesforce.png" alt="Salesforce icon">
+          <h2 class="heading--2">Salesforce</h2>
+          <p class="apps__cards--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.</p>
+        </div>
+        <div class="apps__cards--item">
+          <img src="images/logo-typeform.png" alt="Typeform icon">
+          <h2 class="heading--2">Typeform</h2>
+          <p class="apps__cards--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.</p>
+        </div>
+      </div>
+    </section>
+    <section class="cta">
+      <h2 class="heading--2">Start using Fylo today</h2>
+      <p class="description">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+          questions, our support team would be happy to help you.</p>
+      <a href="" class="cta__button btn-full">Get Started</a>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <img src="images/logo.svg" alt="Logo" class="footer__logo">
+    <div class="footer__contact">
+      <p class="footer__contact--description">Receive updates from us, including tips and tricks on how to improve your workflow.</p>
+      <input type="email" class="footer__contact--input" id="email">
+      <input class="footer__contact--submit" type="submit" value="Join">
+      <img src="images/icon-phone.svg" alt="Phone icon">
+      <p class="footer__contact--text">Phone: +1-543-123-4567</p>
+      <img src="images/icon-email.svg" alt="Email icon">
+      <p class="footer__contact--text">example@fylo.com</p>
+    </div>
 
-  All your files in one secure location, accessible anywhere.
-
-  Fylo stores all your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family and co-workers.
-
-  Get Started
-
-  Stay productive, wherever you are
-
-  Never let location be an issue when accessing your files. Fylo has you 
-  covered for all of your file storage needs.
-
-  All platforms, all devices, all your files
-
-  Security you can trust
-
-  Real-time collaboration
-
-  Connect with the apps you use everyday
-
-  Fylo seamlessly integrates with hundreds of apps, meaning you can access and 
-  work on your files from the apps you already know and love.
-
-  Slack
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  GSuite
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  Trello
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  Asana
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  Salesforce
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  Typeform
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-
-  Start using Fylo today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-  questions, our support team would be happy to help you.
-
-  Get Started
-
-  Receive updates from us, including tips and tricks on how to improve your workflow.
-
-  Join
-
-  Phone: +1-543-123-4567
-
-  example@fylo.com
-
-  Fylo
-
-  Desktop App
-  Mobile App
-  Pricing
-  Feature
-
-  Company
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Support
-
-  Contact Us
-  Terms
-  Privacy
-
-  <footer>
+    <div class="nav">
+      <div class="nav--1">
+        <h4 class="heading--4">Fylo</h4>
+        <ul>
+          <li><a href="#">Desktop App</a></li>
+          <li><a href="#">Mobile App</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Feature</a></li>
+        </ul>
+      </div>
+      <div class="nav--2">
+          <h4 class="heading--4">Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="nav--3">
+            <h4 class="heading--4">Support</h4>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
+          </div>
+    </div>
   </footer>
 </body>
 </html>
