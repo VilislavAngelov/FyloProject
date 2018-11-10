@@ -10,19 +10,27 @@
   <title>Frontend Mentor | Landing page with detailed integrations section</title>
 </head>
 <body>
-  <header class="header">
-    <img src="images/logo.svg" alt="Logo" class="header__logo">
-    <a href="#" class="header_btn">Sign In</a>
-    <a href="#" class="header_btn btn-full">Sign Up</a>
-  </header>
+
   <main>
-    <section class="landing">
-      <h1 class="landing__title">All your files in one secure location, accessible anywhere.</h1>
-      <p class="description">Fylo stores all your most important files in one secure location. 
-          Access them wherever you need, share and collaborate with friends, 
-          family and co-workers.</p>
-      <a href="" class="landing__button btn-full">Get Started</a>
-    </section>
+    <div class="container">
+      <header class="header">
+        <a href="#"><img class="header__logo" src="images/logo.svg" alt="Logo"></a>
+        <ul class="header__nav">
+          <li class="header__nav--item"><a href="#">Sign In</a></li>
+          <li class="header__nav--item btn-full"><a href="#">Sign Up</a></li>
+        </ul>
+      </header>
+      <div class="content-wrap">
+      <div class="content">
+        <h1 class="heading--1 margin-bottom-small">All your files on one secure location, accessible anywhere.</h1>
+        <p class="description margin-bottom-large">Fylo stores all your most important files in one secure location.<br>Access them wherever you need, share and collaborate with friends,<br>family and co-workers.</p>
+        <a href="#" class="cta__button btn-full">Get Started</a>
+      </div>
+      <div class="imagebox">
+        <img src="images/illustration-main.svg" alt="Illustration">
+      </div>
+    </div>
+    </div>
     <section class="benefits">
       <h2 class="heading--2">Stay productive, wherever you are</h2>
       <p class="description">Never let location be an issue when accessing your files. Fylo has you 
