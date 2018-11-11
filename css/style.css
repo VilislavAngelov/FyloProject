@@ -1,3 +1,6 @@
+.margin-bottom-negative {
+  margin-bottom: -2.3rem; }
+
 .margin-bottom-small {
   margin-bottom: 2rem; }
 
@@ -42,7 +45,8 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  line-height: 1.6; }
+  line-height: 1.6;
+  overflow-x: hidden; }
 
 .btn-full {
   background-color: #05d69b;
@@ -63,8 +67,7 @@ body {
   background-repeat: no-repeat;
   background-position: top right;
   height: 100vh;
-  background-size: 800px;
-  margin-bottom: 14rem; }
+  background-size: 800px; }
 
 .header {
   display: flex;
@@ -107,13 +110,14 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 22rem; }
+  margin-bottom: 22rem;
+  margin-top: 15rem; }
   .benefits::before {
     content: '';
     position: absolute;
-    height: 500px;
+    height: 600px;
     background-color: #fafafa;
-    width: 70%;
+    width: 100%;
     z-index: -1;
     transform: rotate(40deg) skewY(-30deg) scaleY(1.7);
     border-radius: 50px; }
@@ -132,3 +136,52 @@ body {
       align-items: center;
       justify-content: center;
       flex-basis: 15%; }
+
+.apps {
+  margin-bottom: 40rem;
+  display: flex;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  justify-content: space-around;
+  align-items: center; }
+  .apps__titles {
+    border: 1px solid red;
+    flex-basis: 29%;
+    margin-right: 5rem; }
+  .apps__cards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid red;
+    height: 85vh;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; }
+    .apps__cards--img {
+      height: 150px;
+      width: 30%;
+      background-color: #fff;
+      box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.1);
+      position: relative; }
+      .apps__cards--img img {
+        max-height: 100%;
+        max-width: 100%;
+        padding: 4.5rem;
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+    .apps__cards--text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: min-content;
+      width: 30%;
+      background-color: #fff;
+      box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.1);
+      padding: 2rem 4.3rem; }
+
+.cards__description {
+  font-size: 1.8rem; }

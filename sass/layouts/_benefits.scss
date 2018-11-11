@@ -3,13 +3,14 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 22rem;
+    margin-top: 15rem;
     
     &::before {
         content: '';
         position: absolute;
-        height: 500px;
+        height: 600px;
         background-color: $color-gray-light;
-        width: 70%;
+        width: 100%;
         z-index: -1;
         transform: rotate(40deg) skewY(-30deg) scaleY(1.7);
         border-radius: 50px; 
