@@ -1,0 +1,38 @@
+.benefits {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 22rem;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        height: 500px;
+        background-color: $color-gray-light;
+        width: 70%;
+        z-index: -1;
+        transform: rotate(40deg) skewY(-30deg) scaleY(1.7);
+        border-radius: 50px; 
+    }
+
+    &__titles {
+        text-align: center;
+        flex-basis: 33%;
+    }
+
+    &__box {
+        display: flex;
+        align-items: baseline;
+        flex-basis: 100%;
+        justify-content: space-around;
+
+        &--item {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            flex-basis: 15%;
+        }
+    }
+}
