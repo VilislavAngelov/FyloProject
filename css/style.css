@@ -10,6 +10,9 @@
 .margin-bottom-large {
   margin-bottom: 6rem; }
 
+.lifted {
+  transform: translateY(-5rem); }
+
 .heading--1 {
   font-size: 6rem;
   font-family: "raleway", sans-serif;
@@ -110,7 +113,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 22rem;
+  margin-bottom: 26rem;
   margin-top: 15rem; }
   .benefits::before {
     content: '';
@@ -145,29 +148,32 @@ body {
   justify-content: space-around;
   align-items: center; }
   .apps__titles {
-    border: 1px solid red;
     flex-basis: 29%;
-    margin-right: 5rem; }
+    margin-right: -15rem; }
   .apps__cards {
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: 1px solid red;
     height: 85vh;
-    width: 60%;
+    width: 50%;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center; }
+    justify-content: center;
+    align-content: center; }
     .apps__cards--img {
-      height: 150px;
-      width: 30%;
+      height: 120px;
+      width: 25%;
       background-color: #fff;
       box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.1);
-      position: relative; }
+      position: relative;
+      margin-bottom: -2.3rem;
+      z-index: 100; }
+      .apps__cards--img:not(:last-child) {
+        margin-right: 1.5rem;
+        margin-top: 1.5rem; }
       .apps__cards--img img {
         max-height: 100%;
         max-width: 100%;
-        padding: 4.5rem;
+        padding: 2.5rem;
         display: flex;
         position: absolute;
         top: 50%;
@@ -178,10 +184,13 @@ body {
       flex-direction: column;
       justify-content: center;
       height: min-content;
-      width: 30%;
+      width: 25%;
       background-color: #fff;
       box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.1);
-      padding: 2rem 4.3rem; }
+      padding: 2rem 3rem;
+      margin-top: 2.7rem; }
+      .apps__cards--text h2 {
+        font-size: 2.7rem; }
 
 .cards__description {
-  font-size: 1.8rem; }
+  font-size: 1.5rem; }

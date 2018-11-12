@@ -22,3 +22,7 @@ $color-gray-dark: hsl(0, 0%, 17%);
 .margin-bottom-large {
     margin-bottom: 6rem;
 }
+
+.lifted {
+    transform: translateY(-5rem);
+}
